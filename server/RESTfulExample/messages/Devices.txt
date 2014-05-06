@@ -1,0 +1,93 @@
+{
+	"title": "Devices",
+	"background" : "",
+	"margintop" : "0",
+	"_links":[
+		{
+		"href" : "http://10.0.3.2:8080/rest/home?token=*",
+		"rel" : "Home",
+		"method" : "1",
+		"access" : "all"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/devices/remove?token=*",
+		"rel" : "Remove",
+		"method" : "1",
+		"access" : "registred"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/logoff?token=*",
+		"rel" : "Logoff",
+		"method" : "2",
+		"access" : "registred"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/devices/graph?token=*&name=*&criteria=*",
+		"rel" : "Graph",
+		"method" : "2",
+		"access" : "registred"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/devices/add?token=*",
+		"rel" : "Add",
+		"method" : "1",
+		"access" : "registred"}
+	],
+	"_elements" :[ 
+		{
+		"type" : "label",
+		"text" : "Device:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "spinner",
+		"text" : "device",
+		"fcolor" : "BLACK",
+		"bcolor": "TRANSPARENT"},
+		{
+		"type" : "label",
+		"text" : "Show by criteria:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "spinner",
+		"text" : "filter",
+		"fcolor" : "BLACK",
+		"bcolor": "TRANSPARENT"},
+		{
+		"type" : "button",
+		"text" : "Add",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Remove",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Graph",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Home",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Logoff",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"}
+	],
+	"_filters" :[ 
+		{
+		"show" : "lastday"},
+		{
+		"show" : "lastweek"},
+		{
+		"show" : "lastmonth"},
+		{
+		"show" : "last3montns"},
+		{
+		"show" : "last6montns"},
+		{
+		"show" : "lastyear"}
+	]
+}

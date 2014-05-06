@@ -1,0 +1,59 @@
+{
+	"title": "Home",
+	"background" : "http://10.0.3.2:8080/rest/home/background/2",
+	"margintop" : "700",
+	"_links":[ 
+		{
+		"href" : "http://10.0.3.2:8080/rest/home?token=*",
+		"rel" : "Home",
+		"method" : "1",
+		"access" : "all"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/login?token=*",
+		"rel" : "Login",
+		"method" : "1",
+		"access" : "guest"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/register?token=*",
+		"rel" : "Register",
+		"method" : "1",
+		"access" : "guest"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/logoff?token=*",
+		"rel" : "Logoff",
+		"method" : "2",
+		"access" : "registred"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/devices?token=*",
+		"rel" : "Devices",
+		"method" : "1",
+		"access" : "registred"}
+	],
+	"_elements" :[ 
+		{
+		"type" : "button",
+		"text" : "Home",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Login",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Register",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Logoff",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Devices",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"}
+	]
+}

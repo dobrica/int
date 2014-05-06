@@ -1,0 +1,19 @@
+{
+	"title": "Unsuccessful",
+	"background" : "",
+	"margintop" : "0",
+	"_links":[
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/",
+		"rel" : "Home",
+		"method" : "1",
+		"access" : "all"}
+	],
+	"_elements" :[ 
+		{
+		"type" : "button",
+		"text" : "Home",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"}
+	]
+}

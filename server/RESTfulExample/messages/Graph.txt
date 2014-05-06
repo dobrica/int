@@ -1,0 +1,33 @@
+{
+	"title": "Graph",
+	"background" : "",
+	"margintop" : "0",
+	"_links":[
+		{
+		"href" : "http://10.0.3.2:8080/rest/home?token=*",
+		"rel" : "Home",
+		"method" : "1",
+		"access" : "all"}
+	],
+	"_elements" :[ 
+		{
+		"type" : "graph",
+		"text" : "Temperature",
+		"fcolor" : "WHITE",
+		"bcolor": "WHITE"}
+	],
+	"_filters" :[ 
+		{
+		"show" : "lastday"},
+		{
+		"show" : "lastweek"},
+		{
+		"show" : "lastmonth"},
+		{
+		"show" : "last3montns"},
+		{
+		"show" : "last6montns"},
+		{
+		"show" : "lastyear"}
+	]
+}

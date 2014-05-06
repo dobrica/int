@@ -1,0 +1,99 @@
+{
+	"title": "Register",
+	"background" : "",
+	"margintop" : "0",
+	"_links":[
+		{
+		"href" : "http://10.0.3.2:8080/rest/home?token=*",
+		"rel" : "Home",
+		"method" : "1",
+		"access" : "all"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/login?token=*",
+		"rel" : "Login",
+		"method" : "1",
+		"access" : "guest"},
+		{
+		"href" : "http://10.0.3.2:8080/rest/home/register?token=*&firstname=*&lastname=*&email=*&username=*&password=*&confirm_password=*",
+		"rel" : "Submit",
+		"method" : "2",
+		"access" : "guest"}
+	],
+	"_elements" :[ 
+		{
+		"type" : "label",
+		"text" : "First name:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "textfield",
+		"text" : "Type your fist name here!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "label",
+		"text" : "Last name:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "textfield",
+		"text" : "Type your last name here!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "label",
+		"text" : "E-mail:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "emailfield",
+		"text" : "Type your e-mail here!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "label",
+		"text" : "Username:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "textfield",
+		"text" : "Type your username here!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "label",
+		"text" : "Password:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "passwordfield",
+		"text" : "Type your password here!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "label",
+		"text" : "Confirm password:",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "passwordfield",
+		"text" : "Type your password again to confirm!",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Submit",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Login",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"},
+		{
+		"type" : "button",
+		"text" : "Home",
+		"fcolor" : "BLACK",
+		"bcolor": "WHITE"}
+	]
+}
